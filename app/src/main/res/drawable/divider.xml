@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="1dp"
+    android:viewportWidth="360"
+    android:viewportHeight="1">
+
+  <path
+      android:pathData="M0,0L360,0"
+      android:strokeWidth="1"
+      android:strokeColor="#E0E0E0">
+    <gradient
+        android:type="linear"
+        android:startX="0"
+        android:startY="0"
+        android:endX="360"
+        android:endY="0"
+        android:startColor="#00E0E0E0"
+        android:centerColor="#E0E0E0"
+        android:endColor="#00E0E0E0"/>
+  </path>
+</vector>

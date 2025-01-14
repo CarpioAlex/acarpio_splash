@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 startActivity(new Intent(MainActivity.this, SecondActivity.class));
-                finish(); // Important to finish so you cant go back with the arrow
+                finish();
             }
 
             @Override
